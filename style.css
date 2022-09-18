@@ -1,0 +1,38 @@
+header{margin: auto;
+  display:grid;
+  width: 1000px;
+  height:200px;
+grid-template-columns:700px 700px;
+border: solid 3px black;
+position: relative;}
+
+
+header > img { 
+   border: solid 3px black;}
+
+header > nav {
+  position: absolute;
+  right: 0px;
+  width: 22rem;
+  height: 7rem;
+  display: grid;
+  background: #FF004D;
+  border-radius: 10px 0px 0px 10px;}
+
+  header  a{  
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 38px;
+        letter-spacing: 0.015em;
+        align-self: center;
+        justify-self: center;    
+    color: #4D041A;}
+
+main  { margin: auto; width: 1000px;
+display: grid;
+grid-template-columns: 500px 500px;
+border: solid 3px black;}
+.foto_intro{background-image: url(/img/Intro.png); width: auto; height: auto;} 
