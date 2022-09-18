@@ -3,12 +3,12 @@ header{margin: auto;
   width: 1000px;
   height:200px;
 grid-template-columns:700px 700px;
-border: solid 3px black;
+
 position: relative;}
 
 
 header > img { 
-   border: solid 3px black;}
+  }
 
 header > nav {
   position: absolute;
@@ -34,5 +34,9 @@ header > nav {
 main  { margin: auto; width: 1000px;
 display: grid;
 grid-template-columns: 500px 500px;
-border: solid 3px black;}
-.foto_intro{background-image: url(/img/Intro.png); width: auto; height: auto;} 
+
+position: relative;}
+
+main  img {width:430px;
+height: 536px; position:absolute;
+top: 20px; border-radius: 20px;}
