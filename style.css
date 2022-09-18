@@ -31,7 +31,7 @@ header > nav {
         justify-self: center;    
     color: #4D041A;}
 
-main  { margin: auto; width: 1000px;
+.grid01  { margin: auto; width: 1000px;
 display: grid;
 grid-template-columns: 500px 500px;
 
