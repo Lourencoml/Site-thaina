@@ -50,8 +50,8 @@ box-shadow: inset 1px 1px 10px black ;
 
 
 .intro{background-image: url(/img/intro2.svg); background-color: #0d0d0da6;
-background-size: cover; width: 536px; height: 188px;
- align-self: center;  margin-left:px; border-radius: 0px 5px 5px 0px; }
+background-repeat: no-repeat; width: 536px; height: 188px;
+ align-self: center;  background-position: center; border-radius: 0px 5px 5px 0px; padding-left: 50px;  }
  
  .trans {display:grid;
 grid-template-columns: 500px 500px; }
@@ -62,7 +62,7 @@ grid-template-columns: 500px 500px; }
   font-family: 'Josefin Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 24px;
+font-size: 28px;
 line-height: 30px;
 
 
