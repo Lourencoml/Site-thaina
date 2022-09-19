@@ -40,7 +40,7 @@ background-color: #1A1919;;
 
 .grid01  {
 display:grid;
-background-image: url(.../img/foto01.jpg);
+background-image: url(img/foto01.jpg);
 background-size: cover;
 background-attachment: fixed;
 height: 536px;
@@ -49,7 +49,7 @@ box-shadow: inset 1px 1px 10px black ;
 }
 
 
-.intro{background-image: url(.../img/intro2.svg); background-color: #0d0d0da6;
+.intro{background-image: url(img/intro2.svg); background-color: #0d0d0da6;
 background-repeat: no-repeat; width: 536px; height: 188px;
  align-self: center;  background-position: center; border-radius: 0px 5px 5px 0px; padding-left: 50px;  }
  
@@ -75,7 +75,7 @@ display: grid;
 grid-template-columns: 500px 500px;
 background-color: #333233; }
 
-.foto02 {background-image: url(.../img/foto02.png); width: auto; height: 536px; background-size: cover;
+.foto02 {background-image: url(img/foto02.png); width: auto; height: 536px; background-size: cover;
 margin:30px 40px 30px 40px; box-shadow: 1px 1px 10px black;}
 
 
