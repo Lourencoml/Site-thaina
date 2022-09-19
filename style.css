@@ -40,7 +40,7 @@ background-color: #1A1919;;
 
 .grid01  {
 display:grid;
-background-image: url(img/foto01.jpg);
+background-image: url(https://github.com/Lourencoml/Site-thaina/blob/71421f09061b3cc70947b3d0234a874ea030b19f/img/foto01.JPG);
 background-size: cover;
 background-attachment: fixed;
 height: 536px;
