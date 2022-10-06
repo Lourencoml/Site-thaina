@@ -1,0 +1,36 @@
+header{margin: auto;
+    display:grid;
+    max-width: 1000px;
+    height:auto;
+  grid-template-columns:100px 500px;
+  
+  position: relative;}
+  
+  
+  header > a { display: block;
+    }
+  
+  header > nav {
+    position: absolute;
+    right: 0px;
+    width: auto;
+    height: 100px;
+    display: grid;
+    
+  }
+  
+  .contato {  display: block;
+  background-color: #1A1919;;
+      font-family: 'Roboto';
+       text-decoration: none;
+      font-weight: 700;
+      font-size: 1.0rem;
+      letter-spacing: 0.015em;
+      align-self: center;
+        justify-self: center;    
+      color: #ffffff ;
+    padding: 30px 50px;
+    border-radius: 10px 0px 0px 10px;
+  }
+      
+      header  a:hover {padding-right:150px; transition: 0.5s;}
